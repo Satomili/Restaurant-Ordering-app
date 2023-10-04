@@ -1,0 +1,226 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    line-height: 0.5;
+    user-select: none;
+    width: 100%;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+p,
+.card-start p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card-start p {
+    font-size: 78.72px;
+}
+
+
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("burger.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 60px 30px;
+    gap: 20px;
+}
+
+/* container */
+.card {
+    display: flex;
+    height: 140px;
+    border-bottom: 1px solid #D2D2D2;
+    gap: 50px;
+}
+
+.card-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 89%;
+    width: 70px;
+    margin: auto;
+}
+
+.card-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.card-end {
+    display: flex;
+    margin-left: auto;
+}
+
+.add-btn {
+    border-radius: 50%;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #DEDEDE;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+/* order */
+
+main,
+.order {
+    min-width: 400px;
+    max-width: 450px;
+}
+
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    border-bottom: 2px solid #393333;
+    margin-bottom: 20px;
+}
+
+.order-title {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.order-list {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.remove-btn {
+    margin-left: 10px;
+    color: #BBBBBB;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 12px;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* payment */
+
+.btn,
+form h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+#payment-form-container {
+    display: none;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #FFFFFF;
+    border: #757575;
+    border-radius: 4px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5)
+}
+
+input {
+    border: 1.3px solid #757575;
+    padding: 15px 0 15px 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+
+.btn  {
+    border: none;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.message {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ECFDF5;
+    border-radius: 3px;
+    padding: 40px;
+    color: #065F46;
+    font-size: 20px;
+    line-height: 1;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
